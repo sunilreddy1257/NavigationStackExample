@@ -11,6 +11,7 @@
 		1007BCC92A39D7DF0043013E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007BCC82A39D7DF0043013E /* ContentView.swift */; };
 		1007BCCB2A39D7E00043013E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1007BCCA2A39D7E00043013E /* Assets.xcassets */; };
 		1007BCCE2A39D7E00043013E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1007BCCD2A39D7E00043013E /* Preview Assets.xcassets */; };
+		1007BCD52A39D8550043013E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007BCD42A39D8550043013E /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1007BCC82A39D7DF0043013E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1007BCCA2A39D7E00043013E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1007BCCD2A39D7E00043013E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1007BCD42A39D8550043013E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		1007BCC52A39D7DF0043013E /* NavigationStackExample */ = {
 			isa = PBXGroup;
 			children = (
+				1007BCD42A39D8550043013E /* DataManager.swift */,
 				1007BCC62A39D7DF0043013E /* NavigationStackExampleApp.swift */,
 				1007BCC82A39D7DF0043013E /* ContentView.swift */,
 				1007BCCA2A39D7E00043013E /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1007BCC92A39D7DF0043013E /* ContentView.swift in Sources */,
+				1007BCD52A39D8550043013E /* DataManager.swift in Sources */,
 				1007BCC72A39D7DF0043013E /* NavigationStackExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
