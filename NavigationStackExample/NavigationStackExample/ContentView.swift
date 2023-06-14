@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var platforms = DataManager.platformsData
+    var games = DataManager.gamesData
     var body: some View {
         NavigationStack {
         ZStack {
@@ -31,12 +32,29 @@ struct ContentView: View {
                         }*/
                     }
                 }
+                Section("Games") {
+                    ForEach(games, id: \.name) { game in
+                        
+                        NavigationLink(value: game) {
+                            Text(game.name)
+                        }
+                        /*NavigationLink {
+                            DetailsView(platform: platform)
+                        } label: {
+                            Label(platform.name, systemImage: platform.imageName)
+                                .foregroundColor(platform.color)
+                        }*/
+                    }
+                }
             }
             
         }
         .navigationTitle("Gaming")
         .navigationDestination(for: Users.self) { user in
             Text("\(user.name)")
+        }
+        .navigationDestination(for: Game.self) { game in
+            Text(game.name)
         }
         }
     }
